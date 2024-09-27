@@ -1,0 +1,9 @@
+.main{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+.main:hover{
+    transform: translate(300px) scale(1.5) skew(10deg) rotate(360deg);
+    transition: 2s ease-in-out;
+}
